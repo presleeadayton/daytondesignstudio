@@ -1,0 +1,622 @@
+body {
+        background-color: #FFFFFF;
+        color: grey; 
+        font-size: 1.2em; 
+        font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+}
+
+p {
+        font-size: 1.2em;
+}
+
+.logo {
+        padding: .25em;
+        width: 75%;
+}
+
+.sublogo {
+        height: 250px;
+	width: 250px;
+        position: relative;
+}
+
+span {
+        width:600px; 	
+        display:inline-block;
+}
+
+header {
+        background: #FFFFFF;
+        padding: 40px 0;
+        color: grey;
+        text-align: center;
+        position: relative;
+}
+
+h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        margin-bottom: 3em;
+}
+
+#nav {
+        float:left;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav ul {
+        clear:left;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%;
+        text-align:center;
+}
+
+#nav ul li {
+        display:block;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1px solid #CC7B6C;
+        border-top: 1px solid #CC7B6C;
+}
+
+#nav ul li a {
+        color: grey;
+        padding: 0 10px;  
+        text-decoration: none;
+        font-family: Verdana, Helvetica, sans-serif;
+}
+
+#nav ul li:first-child a {
+        padding-left: 0;    
+}
+
+#nav ul li:last-child a {
+        padding-right: 0;    
+}
+
+#nav2 {
+        float:left;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav2 ul {
+        clear:left;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%;
+        text-align:center;  
+}
+
+#nav2 ul li {
+        display:block;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1px solid #CC7B6C;
+        border-top: 1px solid #CC7B6C;
+}
+
+#nav2 ul li a {
+        color: grey;
+        padding: 0 10px;  
+        text-decoration: none;
+        font-family: Verdana, Helvetica, sans-serif;
+}
+
+#nav2 ul li:first-child a {
+        padding-left: 0;    
+}
+#nav2 ul li:last-child a {
+        padding-right: 0;    
+}
+ 
+.leftcolumn {
+        height: auto;
+        width: 48%;
+        float: left;
+        border-radius: 2em;
+
+}
+
+.rightcolumn {
+        height: auto;
+        width:48%;
+        float: right;
+        border-radius: 2em;
+}
+
+.photobox {
+        position: relative;
+        height: auto;
+        width: 65%;
+        border-radius: .75em;
+        padding: .80em .10em .10em .10em;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+}
+
+fieldset {
+        color: grey; 
+ 	font-size: 16px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: left; 
+        margin-left: 25%;
+        width: 50%;
+        position: relative;
+}
+      
+h1 {
+        color: grey; 
+        font-size: 36px; 
+        font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+
+h2 {
+ 	color: grey; 
+ 	font-size: 24px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+}
+
+h3 {
+	color: grey; 
+ 	font-size: 24px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+}
+
+#page ul {
+	color: grey; 
+ 	font-size: 16px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+        list-style-type: square;
+}
+
+#page2 ul {
+	color: grey; 
+ 	font-size: 16px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+        list-style-type: square;
+}
+
+li {
+        color: grey; 
+ 	font-size: 16px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+        list-style-type: square;
+}
+
+img {
+        height: 250px;
+	width: 250px;
+        position: relative;
+}
+
+#img2 {
+        height: 500px;
+	width: 550px;
+        position: relative;
+}
+
+form {
+        color: grey; 
+ 	font-size: 16px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: left; 
+        margin-left: 25%;
+        width: 50%;
+        position: relative;
+}
+
+#copyright {
+        color: grey; 
+ 	font-size: 9px; 
+ 	font-family: Verdana, Helvetica, sans-serif;
+        text-align: center;
+}
+
+#social-icons a img {
+ 	text-align: center;
+        height: 50px;
+        width: 50px;
+}
+
+@media screen and (max-device-width: 768px)
+and (orientation: portrait),
+screen and (max-device-width: 1024px) and
+(orientation: landscape) {
+
+body {
+        font-size: 1.2em;
+        text-align: center;
+}
+
+p {
+        font-size: 1.2em;
+}
+
+.logo {
+        padding: .25em;
+        width: 75%;
+}
+
+.sublogo {
+        padding: .25em;
+        width: 75%;
+}
+
+span {
+        width:75%; 	
+        display:inline-block;
+}
+
+header {
+        padding: 4.4em 0;
+        position: relative;
+}
+
+h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        margin-bottom: 3em;
+}
+
+#nav {
+        width:90%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%;
+        text-align:center;
+}
+
+#nav ul li {
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1em solid #FFFFFF;
+        border-top: 1em solid #FFFFFF;
+}
+
+#nav ul li a {
+        padding: 0 10px; 
+}
+
+#nav ul li:first-child a {
+        padding-left: 0;    
+}
+
+#nav ul li:last-child a {
+        padding-right: 0;    
+}
+
+#nav2 {
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav2 ul {
+        clear:left;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%; 
+}
+
+#nav2 ul li {
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+}
+
+#nav2 ul li a {
+        padding: 0 3em;
+}
+
+#nav2 ul li:first-child a {
+        padding-left: 0;    
+}
+#nav2 ul li:last-child a {
+        padding-right: 0;    
+}
+ 
+.leftcolumn {
+        height: auto;
+        width: 48%;
+        border-radius: 2em;
+}
+
+.rightcolumn {
+        height: auto;
+        width:48%;
+        border-radius: 2em;
+}
+
+.photobox {
+        position: relative;
+        height: auto;
+        width: 65%;
+        border-radius: .75em;
+        padding: .80em .10em .10em .10em;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+}
+      
+h1 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+
+h2 {
+        text-align: center;
+}
+
+h3 {
+        text-align: center;
+}
+
+#page ul {
+        width: 50%;
+        margin-left: 25%;
+}
+
+li {
+        text-align: center;
+        list-style-type: square;
+}
+
+img {
+        position: relative;
+}
+
+form {
+        margin-left: 25%;
+        width: 20%;
+        position: relative;
+}
+
+#copyright {
+        text-align: center;
+}
+
+#social-icons a img {
+        height: 50px;
+        width: 50px;
+}
+}
+
+@media screen and (max-device-width: 320px)
+and (orientation: portrait),
+screen and (max-device-width: 480px) and
+(orientation: landscape) {
+
+body {
+        font-size: 1.2em;
+        text-align: center;
+}
+
+p {
+        font-size: 1em;
+}
+
+.logo {
+        padding: .25em;
+        width: 75%;
+}
+
+.sublogo {
+        padding: .25em;
+        width: 75%;
+}
+
+span {
+        width: 75%; 	
+        display:inline-block;
+}
+
+header {
+        padding: 40px 0;
+        position: relative;
+}
+
+h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        margin-bottom: 3em;
+}
+
+#nav {
+        float:left;
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%;
+        text-align:center;
+}
+
+#nav ul li {
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+}
+
+#nav ul li a {
+        padding: 0 10px; 
+}
+
+#nav ul li:first-child a {
+        padding-left: 0;    
+}
+
+#nav ul li:last-child a {
+        padding-right: 0;    
+}
+
+#nav2 {
+        width:100%;
+        overflow:hidden;
+        position:relative;
+
+}
+
+#nav2 ul {
+        clear:left;
+        margin:0;
+        padding:0;
+        position:relative;
+        left:50%; 
+}
+
+#nav2 ul li {
+        margin:0;
+        padding:0;
+        position:relative;
+        right:50%;
+        padding: 2px 0;
+        border-bottom: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+}
+
+#nav2 ul li a {
+        padding: 0 10px;
+}
+
+#nav2 ul li:first-child a {
+        padding-left: 0;    
+}
+#nav2 ul li:last-child a {
+        padding-right: 0;    
+}
+ 
+.leftcolumn {
+        height: 48%;
+        width: 48%;
+        border-radius: 2em;
+
+}
+
+.rightcolumn {
+        height:48%;
+        width:48%;
+        border-radius: 2em;
+}
+
+.photobox {
+        position: relative;
+        height: 60%;
+        width: 65%;
+        border-radius: .75em;
+        padding: .80em .10em .10em .10em;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+}
+      
+h1 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+}
+
+h2 {
+        text-align: center;
+}
+
+h3 {
+        text-align: center;
+}
+
+#page ul {
+        width: 50%;
+        margin-left: 25%;
+}
+
+li {
+        text-align: center;
+        list-style-type: square;
+}
+
+img {
+        height: 75px;
+	width: 75px;
+        position: relative;
+}
+
+form {
+        margin-left: 10%;
+        width: 65%;
+        position: relative;
+}
+
+#copyright {
+        text-align: center;
+}
+
+#social-icons a img {
+        height: 50px;
+        width: 50px;
+}
+}
